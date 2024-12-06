@@ -6,12 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="/style/styles.css">
-  <script src="/scripts/index.js"></script>
 </head>
 
 <body>
   <main>
-    <form class="form">
+    <form class="form" id="form">
       <fieldset>
         <legend>Login Please</legend>
         <div class="login_div">
@@ -22,18 +21,19 @@
           <label for="email">Email :</label>
           <input type="email" placeholder="Email">
           <label for="pass">Password :</label>
-          <input type="password" name="pass" id="" placeholder="Your password">
+          <input type="password" name="pass" id="" placeholder="Your password" required>
 
         </div>
         <div class="form_buttons">
           <input type="button" value="Forgot password" class="main-button">
-          <input type="button" value="Login" class="main-button">
+          <input type="submit" value="Login" class="main-button">
         </div>
-
-
+        
+        
       </fieldset>
     </form>
   </main>
 </body>
+  <script src="/scripts/index.js"></script>
 
 </html>
