@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 98vw;
+  background: rgb(235, 235, 235);
+}
+
+.form{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+fieldset{
+  border-radius: 15px;
+  background: rgb(241, 241, 241);
+}
+
+legend {
+  margin-left: 5%;
+  padding: 0 10px;
+}
+
+.login_div, .form_buttons {
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 5% 20% ;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.login_div > input{
+  margin-bottom: 5%;
+  font-size: 15px;
+  height: 35px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(202, 202, 202);
+  outline: none;
+}
+
+.form_buttons{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.form_buttons > input {
+  font-size: 15px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 1px solid rgb(202, 202, 202);
+  background-color: rgb(169, 235, 235);
+}
+
+.main-button:hover{
+  background-color: rgb(169, 214, 235);
+  cursor: pointer;
+}
