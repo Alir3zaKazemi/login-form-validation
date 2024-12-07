@@ -44,4 +44,11 @@ button:hover{
 
 .data {
   margin-bottom: 10px;
+  
+}
+
+#data{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
 }

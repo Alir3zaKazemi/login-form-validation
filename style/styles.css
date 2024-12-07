@@ -46,6 +46,13 @@ legend {
   outline: none;
 }
 
+.login_div > span {
+  color: red;
+  margin-bottom: 10px;
+}
+
+
+
 .form_buttons{
   margin-top: 0;
   padding-top: 0;
@@ -63,3 +70,4 @@ legend {
   background-color: rgb(169, 214, 235);
   cursor: pointer;
 }
+
