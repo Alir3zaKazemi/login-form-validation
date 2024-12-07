@@ -16,7 +16,6 @@ document.addEventListener("submit", (event) => {
 
 	if (!validateEmail) {
 		let emailError = document.createElement("span");
-		emailError.classList += "error";
 		emailError.textContent = "wrong Gmail format";
 		emailInput.after(emailError);
 
@@ -27,7 +26,6 @@ document.addEventListener("submit", (event) => {
 
 	if (!validatePass) {
 		let passError = document.createElement("span");
-		passError.classList += "error";
 		passError.textContent = "wrong Password format";
 		passInput.after(passError);
 

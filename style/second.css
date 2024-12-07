@@ -7,6 +7,7 @@
 body {
   width: 98vw;
   background: rgb(167, 167, 167);
+  font-family: "Crimson Pro", serif;
 }
 
 main{
@@ -29,6 +30,8 @@ main{
 }
 
 button{
+  font-family: "Crimson Pro", serif;
+  font-size: 17px;
   width: 40%;
   border-radius: 10px;
   outline: none;
